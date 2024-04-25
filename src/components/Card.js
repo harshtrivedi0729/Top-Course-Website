@@ -47,7 +47,7 @@ const Card = (props) => {
                         /* react ni andar icon lav-va ni rit che ...........j heart valu icon ave che ne tene lavva mate apde aa code lakhiyo */
                         /* anu logic che k jo current course a liked course ni array ma che [atle k pahela thi j liked che] to FcLike valu icon avshe and jo nahi hoy to 'FcLikePlaceholder' nu icon avshe */
                         likedCourses.includes(course.id) ? 
-                        {/* Custome HTML element banaviyu '<FcLike></FcLike>' */}
+                        /* Custome HTML element banaviyu '<FcLike></FcLike>' */
                         (<FcLike fontSize="1.75rem" />)
                         :(<FcLikePlaceholder fontSize="1.75rem" />)
                     }
